@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|c:\\users\\user1\\desktop\\newproject\\gmailjobagent\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|c:\\users\\user1\\desktop\\newproject\\gmailjobagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|c:\\users\\user1\\desktop\\newproject\\gmailjobagent\\gmailservicehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2E2182-BB6A-4B25-AEF7-988220440142}|GmailJobAgent.csproj|solutionrelative:gmailservicehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T19:06:19.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\Worker.cs",
+              "RelativeDocumentMoniker": "Worker.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\Worker.cs",
+              "RelativeToolTip": "Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:45:10.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GmailServiceHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\GmailServiceHelper.cs",
+              "RelativeDocumentMoniker": "GmailServiceHelper.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\newProject\\GmailJobAgent\\GmailServiceHelper.cs",
+              "RelativeToolTip": "GmailServiceHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:42:46.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

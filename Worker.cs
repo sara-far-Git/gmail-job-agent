@@ -1,23 +1,23 @@
-namespace GmailJobAgent;
+using Google.Apis.Gmail.v1;
+using Microsoft.Extensions.Hosting;
 
 public class Worker : BackgroundService
 {
-    private readonly ILogger<Worker> _logger;
-
-    public Worker(ILogger<Worker> logger)
-    {
-        _logger = logger;
-    }
-
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        var helper = new GmailServiceHelper();
+        var service = await helper.CreateServiceAsync();
+
         while (!stoppingToken.IsCancellationRequested)
         {
-            if (_logger.IsEnabled(LogLevel.Information))
-            {
-                _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-            }
-            await Task.Delay(1000, stoppingToken);
+            var request = service.Users.Messages.List("me");
+            request.MaxResults = 5;
+
+            var response = await request.ExecuteAsync();
+
+            Console.WriteLine($"Found {response.Messages?.Count ?? 0} emails");
+
+            await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
         }
     }
 }
